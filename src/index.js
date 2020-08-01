@@ -1,8 +1,12 @@
-import React from 'react'
+import React,{Component} from 'react'
 import ReactDOM from 'react-dom'
-
-const Header = () => {
-return <h1>Lokedvjdfjsdhdh</h1>
+import Name from './Styles/Name'
+class Header extends Component {
+render(){return (
+    <div>
+        <Name />
+    </div>
+)}
 }
 
 ReactDOM.render(<Header />,document.getElementById('root'))
