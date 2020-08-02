@@ -6,7 +6,8 @@ class Name extends React.Component {
         super()
         this.state = {
             timer:false,
-            height:100
+            height:100,
+            pset:false
         }
     }
     componentDidMount(){
@@ -17,18 +18,24 @@ class Name extends React.Component {
             })
         },3000)
     }
+    onClickChange = () => {
+        this.props.onClickHandler()
+        this.setState({pset:false})
+    }
     render(){return (
         <div>
+            <div>
         <div className="w3-animate-top" style={{display:"flex",justifyContent:"center",height:`${this.state.height}vh`,alignItems:"center"}}> 
-            <h1 style={{color:"green",fontSize:100,fontFamily:"Comic Sans MS, cursive, sans-serif"}}>L</h1>
-            <h1 style={{color:"tomato",fontSize:100,fontFamily:"Comic Sans MS, cursive, sans-serif"}}>O</h1>
-            <h1 style={{color:"teal",fontSize:100,fontFamily:"Comic Sans MS, cursive, sans-serif"}}>O</h1>
-            <h1 style={{color:"aqua",fontSize:100,fontFamily:"Comic Sans MS, cursive, sans-serif"}}>S</h1>
-            <h1 style={{color:"yellow",fontSize:100,fontFamily:"Comic Sans MS, cursive, sans-serif"}}>E</h1>
-            <h1 style={{color:"blue",fontSize:100,fontFamily:"Comic Sans MS, cursive, sans-serif"}}>R</h1>
+            <h1 style={{color:"green",fontSize:75,fontFamily:"Comic Sans MS, cursive, sans-serif"}}>L</h1>
+            <h1 style={{color:"tomato",fontSize:75,fontFamily:"Comic Sans MS, cursive, sans-serif"}}>O</h1>
+            <h1 style={{color:"teal",fontSize:75,fontFamily:"Comic Sans MS, cursive, sans-serif"}}>O</h1>
+            <h1 style={{color:"aqua",fontSize:75,fontFamily:"Comic Sans MS, cursive, sans-serif"}}>S</h1>
+            <h1 style={{color:"yellow",fontSize:75,fontFamily:"Comic Sans MS, cursive, sans-serif"}}>E</h1>
+            <h1 style={{color:"blue",fontSize:75,fontFamily:"Comic Sans MS, cursive, sans-serif"}}>R</h1>
+            </div>
             </div>
             <div style={{display:"flex",justifyContent:"center",height:`${30}vh`,alignItems:"center"}}>
-        {this.state.timer?<button className="w3-btn w3-yellow w3-animate-zoom w3-hover-teal" style={{fontSize:25,padding:15}} onClick={this.props.onClickHandler}>Get start<span style={{margin:10}} className="fa fa-arrow-right"></span></button>:''}
+        {this.state.timer?<button className="w3-btn w3-yellow w3-animate-zoom w3-hover-teal" style={{fontSize:25,padding:15}} onClick={this.onClickChange}>Get start<span style={{margin:10}} className="fa fa-arrow-right"></span></button>:''}
         </div>
         </div>
     )}
