@@ -25,7 +25,7 @@ const Navigation = (props) => {
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
           <a className="dropdown-item" href="#">Action</a>
-          <a className="dropdown-item" href="#">Another action</a>
+          <Link className="dropdown-item" to="/cofounder">Co-Founder</Link>
           <div className="dropdown-divider"></div>
           <Link className="dropdown-item" to="/theme">Theme</Link>
         </div>

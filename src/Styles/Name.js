@@ -16,7 +16,7 @@ class Name extends React.Component {
                 timer:true,
                 height:50
             })
-        },3000)
+        },2000)
     }
     onClickChange = () => {
         this.props.onClickHandler()

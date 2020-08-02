@@ -3,6 +3,8 @@ import { BrowserRouter,Route } from 'react-router-dom'
 import Body from './Body'
 import { Switch } from 'react-router-dom'
 import ButtonColor from './ButtonColor'
+import CoFounder from './Styles/CoFounder'
+ 
 
 class Routing extends Component{
     constructor(){
@@ -17,6 +19,7 @@ class Routing extends Component{
             <div>
                 <Body  colors = {this.state.colors}/>
                 <Route path="/theme" render={()=><ButtonColor colorss = {(a)=>this.setState({colors:a})} />} />
+                <Route path="/cofounder" component={CoFounder} />
             </div>
             </BrowserRouter>
         )
