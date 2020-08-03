@@ -9,7 +9,7 @@ class Help extends Component {
         }
     }
     componentDidMount(){
-        fetch("http://arvels.pythonanywhere.com/queries/",{method:"GET"})
+        fetch("https://arvels.pythonanywhere.com/queries/",{method:"GET"})
         .then(rsp=>rsp.json())
         .then(rsp=>this.setState({data:[...this.state.data,rsp]}))
 
