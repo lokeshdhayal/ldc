@@ -11,19 +11,20 @@ class Name extends React.Component {
         }
     }
     componentDidMount(){
+        this.mounted = true
         setInterval(()=>{
             this.setState({
                 timer:true,
                 height:50
             })
-        },2000)
+        },1000)
     }
     onClickChange = () => {
         this.props.onClickHandler()
         this.setState({pset:false})
     }
     render(){return (
-        <div>
+        <div id="name">
             <div>
         <div className="w3-animate-top" style={{display:"flex",justifyContent:"center",height:`${this.state.height}vh`,alignItems:"center"}}> 
             <h1 style={{color:"green",fontSize:75,fontFamily:"Comic Sans MS, cursive, sans-serif"}}>L</h1>

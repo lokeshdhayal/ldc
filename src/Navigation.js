@@ -24,14 +24,14 @@ const Navigation = (props) => {
           Dropdown
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item" href="#">Action</a>
+          <Link className="dropdown-item" to="/help">Help??</Link>
           <Link className="dropdown-item" to="/cofounder">Co-Founder</Link>
           <div className="dropdown-divider"></div>
           <Link className="dropdown-item" to="/theme">Theme</Link>
         </div>
       </li>
       <li className="nav-item">
-        <Link className="nav-link disabled" to="/theme" tabIndex="-1" aria-disabled="true">Theme</Link>
+        <Link className="nav-link disabled" to="/theme" tabIndex="-1" aria-disabled="true">Help??</Link>
       </li>
     </ul>
     <form className="form-inline my-2 my-lg-0">
