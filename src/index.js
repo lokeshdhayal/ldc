@@ -1,7 +1,8 @@
 import React,{Component} from 'react'
 import ReactDOM from 'react-dom'
 import Name from './Styles/Name'
-import Routing from './Routing'
+import Home from './Home'
+import { BrowserRouter } from 'react-router-dom'
 class Header extends Component {
     constructor(){
         super()
@@ -10,9 +11,9 @@ class Header extends Component {
         }
     }
 render(){return (
-    <div>
-        {this.state.NameShow?<Name onClickHandler = {()=>{this.setState({NameShow:false})}} />:<Routing />}
-    </div>
+    <BrowserRouter>
+        {this.state.NameShow?<Name onClickHandler = {()=>{this.setState({NameShow:false})}} />:<Home />}
+    </BrowserRouter>
 )}
 }
 
