@@ -39,8 +39,17 @@ class Help extends Component {
 
 render(){return (
     <div>
+        <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+        <div className="border w3-padding card w3-padding w3-margin card w3-card" style={{width:500}}>
+            <label>Name:</label>
+            <input type="text" className="form-control" onChange={this.onClickHandler} />
+            <label>Enter you question</label>
+            <textarea type="text" className="form-control" onChange={this.onClickHand} />
+            <button className="btn  w3-green m-2">Submit</button>
+        </div>
+        </div>
+        <p className="w3-text-red">Note:In mobile click to see question and answer</p>
     <div>{this.renderData()}</div>
-    <InputHandler />
     </div>
     )}
 }

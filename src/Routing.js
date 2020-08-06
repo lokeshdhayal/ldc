@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
-import { BrowserRouter,Route } from 'react-router-dom'
+import { BrowserRouter,Route,Switch } from 'react-router-dom'
 import Body from './Body'
-import { Switch } from 'react-router-dom'
 import ButtonColor from './ButtonColor'
 import CoFounder from './Styles/CoFounder'
 import Query from './Styles/Help'
-import Input from './Styles/Input'
 import InputHandler from './Styles/Input'
-
+import Home from './Home'
+import Get404 from './Get404'
 class Routing extends Component{
     constructor(){
         super()
@@ -20,10 +19,14 @@ class Routing extends Component{
             <BrowserRouter>
             <div>
                 <Body  colors = {this.state.colors}/>
-                <Route path="/help" component={Query} />
-                <Route path="/input" component={InputHandler} />
-                <Route path="/theme" render={()=><ButtonColor colorss = {(a)=>this.setState({colors:a})} />} />
-                <Route path="/cofounder" component={CoFounder} />
+                <Switch>
+                <Route exact path="/help" component={Query} />
+                <Route exact path="/" component={Home} />
+                <Route exact path="/input" component={InputHandler} />
+                <Route exact path="/theme" render={()=><ButtonColor colorss = {(a)=>this.setState({colors:a})} />} />
+                <Route exact path="/cofounder" component={CoFounder} />
+                <Route component={Get404} />
+                </Switch>
             </div>
             </BrowserRouter>
         )
