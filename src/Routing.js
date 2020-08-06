@@ -21,7 +21,7 @@ class Routing extends Component{
                 <Body  colors = {this.state.colors}/>
                 <Switch>
                 <Route exact path="/help" component={Query} />
-                <Route exact path="/" component={Home} />
+                <Route exact path="/ldc" component={Home} />
                 <Route exact path="/input" component={InputHandler} />
                 <Route exact path="/theme" render={()=><ButtonColor colorss = {(a)=>this.setState({colors:a})} />} />
                 <Route exact path="/cofounder" component={CoFounder} />
