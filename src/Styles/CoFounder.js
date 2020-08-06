@@ -2,11 +2,9 @@ import React, { useState, useEffect } from 'react'
 import Ashok from './ad.jpg'
 import Sunita from './s1.jpg'
 import Md from './md.jpg'
-import Navigation from '../Navigation'
-const CoFounder = (props) => {
+const CoFounder = () => {
     return(
         <div>
-            <Navigation colors = {props.colors}/>
         <div className="row">
             <div className="w3-display-container w3-hover-opacity w3-margin" style={{width:150,height:170}} >
             <img src={Ashok} alt="Avatar" style={{width:150,height:170}} />

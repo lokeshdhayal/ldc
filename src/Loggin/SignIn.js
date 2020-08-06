@@ -5,14 +5,17 @@ import { Link } from 'react-router-dom'
 const SignIn = (props) => {
     const [user,setUser] = useState('')
     const [pass,setPass] = useState('')
+    const [errors,setError] = useState('')
     const onChangeUser = (e) => {
         setUser(e.target.value)
+        setError('')
     }
     const onChangePass = (e) => {
         setPass(e.target.value)
+        setError('')
     }
     const signInF =() => {
-        firebase.auth().createUserWithEmailAndPassword(user,pass)
+        firebase.auth().createUserWithEmailAndPassword(user,pass).catch(error=>setError(error.message))
     }
     return (
         <div>
@@ -44,6 +47,7 @@ const SignIn = (props) => {
              <div className="card-footer w3-center">
                  <button className="btn btn-info" onClick={signInF}>Sign In</button>
              </div>
+             <p className="w3-text-red">{errors}</p>
         </div>
         </div>
         <div   style={{display:"flex",justifyContent:"center"}} className="w3-margin">
