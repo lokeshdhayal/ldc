@@ -17,7 +17,7 @@ const SignIn = (props) => {
     return (
         <div>
             <div id="name">
-            <div  style={{height:"10px"}} >
+            <div  style={{height:"8px"}} >
         <div className="w3-animate-top" style={{display:"flex",justifyContent:"center",alignItems:"center"}}> 
             <h1 style={{color:"green",fontSize:75,fontFamily:"Comic Sans MS, cursive, sans-serif"}}>L</h1>
             <h1 style={{color:"tomato",fontSize:75,fontFamily:"Comic Sans MS, cursive, sans-serif"}}>O</h1>
@@ -31,7 +31,7 @@ const SignIn = (props) => {
         </div>
         </div>
         <div className="row"  style={{display:"flex",justifyContent:"center"}}>
-        <div className="card w3-padding w3-animate-zoom"  style={{width:"500px"}}>
+        <div className="card w3-padding w3-animate-zoom"  style={{width:"450px"}}>
             <div className="card-header w3-teal">
                 Sign In
             </div>
