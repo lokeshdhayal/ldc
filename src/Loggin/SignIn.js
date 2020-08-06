@@ -31,7 +31,7 @@ const SignIn = (props) => {
         </div>
         </div>
         <div className="row"  style={{display:"flex",justifyContent:"center"}}>
-        <div className="card w3-padding col-6 w3-animate-zoom">
+        <div className="card w3-padding w3-animate-zoom"  style={{width:"500px"}}>
             <div className="card-header w3-teal">
                 Sign In
             </div>
