@@ -51,7 +51,7 @@ const SignIn = (props) => {
         </div>
         </div>
         <div   style={{display:"flex",justifyContent:"center"}} className="w3-margin">
-        <p>If you don't have account <button className="btn btn-info" onClick={props.sinf}>Log In</button>  </p>
+        <p>If you don't have account <button className="btn btn-info" onClick={props.sinf}>Log In <span className="fa fa-sign-in"></span></button>  </p>
         </div>
         </div>
     )

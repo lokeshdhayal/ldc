@@ -36,8 +36,8 @@ const Navigation = (props) => {
     </ul>
     <form className="form-inline my-2 my-lg-0">
       <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-      <button className="btn btn-success my-2 my-sm-0" type="submit">Search</button>
-      <Link  className="btn btn-danger my-2 my-sm-0 m-2" onClick={()=>firebase.auth().signOut()} to='/ldc' >Log Out</Link>
+      <button className="btn btn-success my-2 my-sm-0" type="submit"><span className="fa fa-search"></span></button>
+      <Link  className="btn btn-danger my-2 my-sm-0 m-2" onClick={()=>firebase.auth().signOut()} to='/ldc' >Log Out<span className="fa fa-sign-out m-1" ></span></Link>
     </form>
   </div>
 </nav>

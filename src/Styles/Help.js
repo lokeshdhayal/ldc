@@ -11,6 +11,15 @@ class Help extends Component {
         }
     }
     componentDidMount(){
+     {/*   fetch("https://arvels.pythonanywhere.com/queries/",{method:"GET"})
+        .then(rsp=>rsp.json())
+    .then(rsp=>this.setState({data:[...this.state.data,rsp]})) */}
+    this.Apicall()
+
+    }
+
+    Apicall = () => {
+        this.setState({data:[]})
         fetch("https://arvels.pythonanywhere.com/queries/",{method:"GET"})
         .then(rsp=>rsp.json())
         .then(rsp=>this.setState({data:[...this.state.data,rsp]}))
@@ -38,12 +47,14 @@ class Help extends Component {
             name:'',
             question:""
         })
+        
+        this.Apicall()
+
         document.getElementById("ld").innerHTML = "Your query has been successfully submitted!!!!"
     }
 
     renderData = () => {
         var i = this.state.data[0]
-        console.log(typeof(i))
         if(i){
             return i.map(data=>{
                 return(<div key={data.id} className="w3-card w3-margin w3-padding w3-display-container">
