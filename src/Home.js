@@ -30,9 +30,9 @@ const Home = (props) =>{
             setLoggin(true)
         }
     })
-
+    return <Home1 colors={props.colors} />
     if(loggin){
-        return <Home1 colors={props.colors} />
+        
     }
     else {
         if(signup){

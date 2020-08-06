@@ -18,7 +18,7 @@ const ButtonColor = (props) =>{
             <button onClick= {()=>props.colorss("green")} className="w3-green w3-button w3-margin w3-padding" style={{width:80}} >green</button>
             <button onClick= {()=>props.colorss("lime")} className="w3-lime w3-button w3-margin w3-padding" style={{width:80}} >lime</button>
             <button onClick= {()=>props.colorss("sand")} className="w3-sand w3-button w3-margin w3-padding" style={{width:80}} >sand</button>
-            <button onClick= {()=>props.colorss("amber")} className="w3-admer w3-button w3-margin w3-padding" style={{width:80}} >amber</button>
+            <button onClick= {()=>props.colorss("amber")} className="w3-amber w3-button w3-margin w3-padding" style={{width:80}} >amber</button>
             <button onClick= {()=>props.colorss("brown")} className="w3-brown w3-button w3-margin w3-padding" style={{width:80}} >brown</button>
             <button onClick= {()=>props.colorss("pink")} className="w3-teal w3-button w3-margin w3-padding" style={{width:80}} >pink</button>
             <button onClick= {()=>props.colorss("pink")} className="w3-teal w3-button w3-margin w3-padding" style={{width:80}} >pink</button>
