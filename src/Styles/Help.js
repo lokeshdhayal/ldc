@@ -1,5 +1,6 @@
 import React, {  Component } from 'react'
 import InputHandler from './Input'
+import Loading from './loading'
 class Help extends Component {
 
     constructor(){
@@ -7,7 +8,8 @@ class Help extends Component {
         this.state = {
             data:[],
             name:"",
-            question:""
+            question:"",
+            loading:true
         }
     }
     componentDidMount(){
@@ -22,7 +24,7 @@ class Help extends Component {
         this.setState({data:[]})
         fetch("https://arvels.pythonanywhere.com/queries/",{method:"GET"})
         .then(rsp=>rsp.json())
-        .then(rsp=>this.setState({data:[...this.state.data,rsp]}))
+        .then(rsp=>this.setState({data:[...this.state.data,rsp],loading:false}))
 
     }
 
@@ -76,7 +78,9 @@ class Help extends Component {
 
 
 
-render(){return (
+render(){
+    
+return (
     <div>
         <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
         <div className="border w3-padding card w3-padding w3-margin card w3-card" style={{width:500}}>
@@ -89,7 +93,7 @@ render(){return (
         </div>
         <p className="w3-text-green" id="ld"></p>
         <p className="w3-text-red">Note:In mobile click to see question and answer</p>
-    <div style={{display:"flex",flexDirection:"column-reverse"}}>{this.renderData()}</div>
+    {this.state.loading?<Loading />:<div style={{display:"flex",flexDirection:"column-reverse"}}>{this.renderData()}</div>}
     </div>
     )}
 }
