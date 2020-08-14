@@ -49,7 +49,7 @@ class Help extends Component {
             name:'',
             question:""
         })
-        
+        this.setState({loading:true})
         this.Apicall()
 
         document.getElementById("ld").innerHTML = "Your query has been successfully submitted!!!!"
