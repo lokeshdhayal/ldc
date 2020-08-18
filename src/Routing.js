@@ -12,6 +12,7 @@ import SignIn from './Loggin/SignIn'
 import Home1 from './Home1'
 import * as firebase from 'firebase'
 import Class from './Class'
+import Footer from './Footer'
 class Routing extends Component{
     constructor(){
         super()

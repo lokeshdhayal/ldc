@@ -1,5 +1,4 @@
 import React, {  Component } from 'react'
-import InputHandler from './Input'
 import Loading from './loading'
 class Help extends Component {
 

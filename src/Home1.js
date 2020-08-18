@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import DSC_01 from './DSC_0212.jpg'
 import { Link } from 'react-router-dom'
+import Footer from './Footer'
 
 const Home1 = () => {
     const [data,setData] = useState([])
-    const [loading,setLoading] = useState(true)
+    const [loading,setLoading] = useState(false)
     useEffect(()=>{
         fetch("https://lokeshdhayalcharanwas.herokuapp.com/courses/list")
         .then(rsp=>rsp.json())
@@ -19,9 +20,9 @@ const Home1 = () => {
         if(data){
         return data.map(a=>{
             return (
-                <div key = {a.name}>
-                <div className="w3-margin" style = {{width:"240px"}}>
-                    How are yoy LokeshDhayal
+                <div key = {a._id}>
+                <div className="w3-margin" style = {{width:"300px"}}>
+            <h3>{a.name}</h3>
                     <img src = {a.url} style = {{width:"240px",height:"240px"}} />
                     <Link to = {`/Class/${a.name}`} className = "btn btn-info">ABOUT</Link>
                     </div>
@@ -44,6 +45,7 @@ const Home1 = () => {
           {renderData()}
           
       </div>
+      <Footer />
         </div>
     )
     }
