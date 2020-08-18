@@ -80,7 +80,10 @@ class Help extends Component {
 
 
 render(){
-    
+    if(this.state.loading){
+        return <Loading />
+    }
+    else{
 return (
     <div>
         <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
@@ -94,9 +97,10 @@ return (
         </div>
         <p className="w3-text-green" id="ld"></p>
         <p className="w3-text-red">Note:In mobile click to see question and answer</p>
-    {this.state.loading?<Loading />:<div style={{display:"flex",flexDirection:"column-reverse"}}>{this.renderData()}</div>}
+    <div style={{display:"flex",flexDirection:"column-reverse"}}>{this.renderData()}</div>
     </div>
-    )}
+    )
+}}
 }
 
 
