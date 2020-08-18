@@ -1,8 +1,11 @@
 import React from 'react'
-import SlideShow from './SlideShow'
+import DSC_01 from './DSC_0212.jpg'
+
 const Home1 = () => {
     return (
-        <SlideShow />
+        <div style = {{marginTop:"10px"}}>
+      <img src = {DSC_01} style = {{maxWidth:"100%"}} />
+        </div>
     )
 }
 

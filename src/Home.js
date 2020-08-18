@@ -6,7 +6,14 @@ import SignIn from './Loggin/SignIn'
 import LogIn from './Loggin/LogIn'
 
 const Home = (props) =>{
-    if(firebase.apps.length === 0){
+    return <Home1 colors={props.colors} />
+}
+
+
+export default Home
+
+/*
+if(firebase.apps.length === 0){
     var firebaseConfig = {
         apiKey: "AIzaSyDuMpxxdm84AyB9NzT7AE8JbR01tfmtwAo",
         authDomain: "arvel-783f8.firebaseapp.com",
@@ -43,7 +50,4 @@ const Home = (props) =>{
         }
     }
     
-}
-
-
-export default Home
+*/
