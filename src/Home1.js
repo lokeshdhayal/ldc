@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import DSC_01 from './DSC_0212.jpg'
 import { Link } from 'react-router-dom'
 import Footer from './Footer'
+import Loading from './Loading'
 
 const Home1 = () => {
     const [data,setData] = useState([])
@@ -33,9 +34,7 @@ const Home1 = () => {
     }
 
     if(loading){
-        return <div style = {{display:"flex",justifyContent:"center",alignItems:"center"}}>
-            <img src = "https://digitalsynopsis.com/wp-content/uploads/2016/06/loading-animations-preloader-gifs-ui-ux-effects-7.gif" style = {{maxWidth:"100%",marginTop:100}} />
-        </div>
+        return <Loading />
     }
     else{
     return (
@@ -43,7 +42,6 @@ const Home1 = () => {
       <img src = {DSC_01} style = {{maxWidth:"100%"}} />
       <div className = "row" style = {{display:"flex",justifyContent:"center"}}>
           {renderData()}
-          
       </div>
       <Footer />
         </div>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
-        <footer class="page-footer font-small w3-purple">
+        <footer className="page-footer font-small w3-purple">
             <div className = "container-fluid row">
             <div style = {{width:"500px",maxWidth:"100%",padding:30}}>
                     <p>We are very Happy tha tyou visit our website.This website is made on Laptop so if you find any difficult in using this at Phone.Please let's Know.</p>
