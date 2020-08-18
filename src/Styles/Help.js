@@ -16,6 +16,7 @@ class Help extends Component {
      {/*   fetch("https://arvels.pythonanywhere.com/queries/",{method:"GET"})
         .then(rsp=>rsp.json())
     .then(rsp=>this.setState({data:[...this.state.data,rsp]})) */}
+    fetch("http://127.0.0.1:8000/food").then(rsp=>rsp.json()).then(a=>console.log(a))
     this.Apicall()
 
     }

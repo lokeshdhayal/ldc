@@ -9,6 +9,7 @@ import Home from './Home'
 import Get404 from './Get404'
 import LogIn from './Loggin/LogIn'
 import SignIn from './Loggin/SignIn'
+import Home1 from './Home1'
 import * as firebase from 'firebase'
 class Routing extends Component{
     constructor(){
@@ -20,8 +21,9 @@ class Routing extends Component{
     render(){
         return (
             <div>
-                <Body  colors = {this.state.colors}/> 
+                <Body  colors = {this.state.colors}/>
                 <Switch>
+                <Route path = "/ldc" component = {Home1} />
                 <Route exact path="/help" component={Query} />
                 <Route path = "/signin" component={SignIn} />
                 <Route path = "/login" component={LogIn} /> 
