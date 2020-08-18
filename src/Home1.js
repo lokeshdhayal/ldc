@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 const Home1 = () => {
     const [data,setData] = useState([])
-    const [loading,setLoading] = useState(false)
+    const [loading,setLoading] = useState(true)
     useEffect(()=>{
         fetch("https://lokeshdhayalcharanwas.herokuapp.com/courses/list")
         .then(rsp=>rsp.json())
@@ -34,7 +34,7 @@ const Home1 = () => {
 
     if(loading){
         return <div style = {{display:"flex",justifyContent:"center",alignItems:"center"}}>
-            <img src = "https://digitalsynopsis.com/wp-content/uploads/2016/06/loading-animations-preloader-gifs-ui-ux-effects-7.gif" style = {{maxWidth:"100%"}} />
+            <img src = "https://digitalsynopsis.com/wp-content/uploads/2016/06/loading-animations-preloader-gifs-ui-ux-effects-7.gif" style = {{maxWidth:"100%",marginTop:100}} />
         </div>
     }
     else{
