@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.js": "/ldc/static/js/main.ec01f7db.chunk.js",
-    "main.js.map": "/ldc/static/js/main.ec01f7db.chunk.js.map",
+    "main.js": "/ldc/static/js/main.2c0ed586.chunk.js",
+    "main.js.map": "/ldc/static/js/main.2c0ed586.chunk.js.map",
     "runtime-main.js": "/ldc/static/js/runtime-main.ce94b7de.js",
     "runtime-main.js.map": "/ldc/static/js/runtime-main.ce94b7de.js.map",
-    "static/js/2.29a3c08f.chunk.js": "/ldc/static/js/2.29a3c08f.chunk.js",
-    "static/js/2.29a3c08f.chunk.js.map": "/ldc/static/js/2.29a3c08f.chunk.js.map",
+    "static/js/2.d7242e3a.chunk.js": "/ldc/static/js/2.d7242e3a.chunk.js",
+    "static/js/2.d7242e3a.chunk.js.map": "/ldc/static/js/2.d7242e3a.chunk.js.map",
     "index.html": "/ldc/index.html",
-    "precache-manifest.d57375ed7475aa1634662d605a3c9a66.js": "/ldc/precache-manifest.d57375ed7475aa1634662d605a3c9a66.js",
+    "precache-manifest.a5d7b00fa8003679f405ee3a3072c294.js": "/ldc/precache-manifest.a5d7b00fa8003679f405ee3a3072c294.js",
     "service-worker.js": "/ldc/service-worker.js",
-    "static/js/2.29a3c08f.chunk.js.LICENSE.txt": "/ldc/static/js/2.29a3c08f.chunk.js.LICENSE.txt",
+    "static/js/2.d7242e3a.chunk.js.LICENSE.txt": "/ldc/static/js/2.d7242e3a.chunk.js.LICENSE.txt",
     "static/media/ad.jpg": "/ldc/static/media/ad.7d41f642.jpg",
     "static/media/loading.gif": "/ldc/static/media/loading.c77d6d57.gif",
     "static/media/md.jpg": "/ldc/static/media/md.8cc6d5a7.jpg",
-    "static/media/s1.jpg": "/ldc/static/media/s1.cb07168a.jpg"
+    "static/media/s1.jpg": "/ldc/static/media/s1.cb07168a.jpg",
+    "static/media/slide-1.jpg": "/ldc/static/media/slide-1.8212d821.jpg",
+    "static/media/slide-2.jpg": "/ldc/static/media/slide-2.e53f3506.jpg",
+    "static/media/slide-3.jpg": "/ldc/static/media/slide-3.dfdcd54f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ce94b7de.js",
-    "static/js/2.29a3c08f.chunk.js",
-    "static/js/main.ec01f7db.chunk.js"
+    "static/js/2.d7242e3a.chunk.js",
+    "static/js/main.2c0ed586.chunk.js"
   ]
 }
