@@ -4,7 +4,11 @@
         "data":{
             "book":"",
             "tutorial":"",
-            "paper":""
+            "paper":"",
+            "ppt":["https://drive.google.com/file/d/1PrT6qljSoQZPHO5fHAuGy_ler7fYAu9a/preview",
+                "https://drive.google.com/file/d/17KvtIdVtSAKBsW85RF_gFsl-UucdMeg-/preview",
+                "https://drive.google.com/file/d/16OYKLfgc1TpRzmjmQr3W-I2AEVz9pC8n/preview",
+                "https://drive.google.com/file/d/1_j-Ru_ZjBhmE15JX-XHVHbaenPLs2pN0/preview"]
         }
     },
     {
@@ -12,7 +16,8 @@
         "data":{
             "book":"",
             "tutorial":"",
-            "paper":""
+            "paper":"",
+            "ppt":""
         }
     },
     {
@@ -20,7 +25,8 @@
         "data":{
             "book":"",
             "tutorial":"",
-            "paper":""
+            "paper":"",
+            "ppt":["https://drive.google.com/file/d/1wKbDWUf7l-gs1YLJjtcgSdFBNz7hVvUH/preview"]
         }
     },
     {
@@ -28,7 +34,8 @@
         "data":{
             "book":"",
             "tutorial":"",
-            "paper":""
+            "paper":"",
+            "ppt":""
         }
     },
     {
@@ -36,7 +43,8 @@
         "data":{
             "book":"https://drive.google.com/file/d/1Y_xsRBV6595y2taorYBP3PRMSuA3FQcH/preview",
             "tutorial":"",
-            "paper":""
+            "paper":"",
+            "ppt":["https://drive.google.com/file/d/147JXZndg8mSf16JkArQQYPUZqR5ZxP5W/preview"]
         }
     },
     {
@@ -44,7 +52,8 @@
         "data":{
             "book":"",
             "tutorial":"",
-            "paper":""
+            "paper":"",
+            "ppt":""
         }
     },
     {
@@ -52,15 +61,20 @@
         "data":{
             "book":"",
             "tutorial":"",
-            "paper":""
+            "paper":"",
+            "ppt":""
         }
     },
     {
-        "name":"NMST MATH",
+        "name":"EMMI",
         "data":{
             "book":"",
             "tutorial":"",
-            "paper":""
+            "paper":"",
+            "ppt":["https://drive.google.com/file/d/1lfvykhevHYRvwTR2LmaNxeKFHwFLHRjX/preview",
+                "https://drive.google.com/file/d/1jSJpCnalz3z0QW1NbMBaW-QphgejJqZt/preview",
+                "https://drive.google.com/file/d/1Gt0cmf-Nk8o80yB1RAiSQ8w8brZzYVHj/preview",
+                "https://drive.google.com/file/d/1U-xM_hmjGP85Qg6w9roSug8-HrjV5kpa/preview"]
         }
     },
     {
@@ -68,7 +82,8 @@
         "data":{
             "book":"https://drive.google.com/file/d/17oGtWaVAYLvv81CP1NXyAm6gQGXpfnoZ/preview",
             "tutorial":"",
-            "paper":""
+            "paper":"",
+            "ppt":""
         }
     },
     {
@@ -76,7 +91,8 @@
         "data":{
             "book":"",
             "tutorial":"",
-            "paper":""
+            "paper":"",
+            "ppt":""
         }
     },
     {
@@ -84,7 +100,8 @@
         "data":{
             "book":"",
             "tutorial":"",
-            "paper":""
+            "paper":"",
+            "ppt":""
         }
     },
     {
@@ -92,7 +109,8 @@
         "data":{
             "book":"",
             "tutorial":"",
-            "paper":""
+            "paper":"",
+            "ppt":""
         }
     },
     {
@@ -100,7 +118,8 @@
         "data":{
             "book":"",
             "tutorial":"",
-            "paper":""
+            "paper":"",
+            "ppt":""
         }
     }
 ]

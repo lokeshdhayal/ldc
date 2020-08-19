@@ -6,7 +6,7 @@ const Navigation = (props) => {
     console.log(props.colors)
     return (
         <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor:`${props.colors}`}} >
-  <a className="navbar-brand" href="#">LOOSER</a>
+  <Link className="navbar-brand" href="#" to = "/ldc"><i className = "fa fa-home"></i></Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
