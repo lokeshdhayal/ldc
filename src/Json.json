@@ -15,7 +15,7 @@
     {
         "name":"NMST MATH",
         "data":{
-            "book":"",
+            "book":[],
             "tutorial":"",
             "paper":"",
             "ppt":""
@@ -24,7 +24,7 @@
     {
         "name":"BEE BASIC EE",
         "data":{
-            "book":"",
+            "book":[],
             "tutorial":"",
             "paper":"",
             "ppt":["https://drive.google.com/file/d/1wKbDWUf7l-gs1YLJjtcgSdFBNz7hVvUH/preview"]
@@ -33,7 +33,7 @@
     {
         "name":"PRINCIPAL OF ELECTRONICS",
         "data":{
-            "book":"",
+            "book":[],
             "tutorial":"",
             "paper":"",
             "ppt":""
@@ -53,7 +53,7 @@
     {
         "name":"CS LAB",
         "data":{
-            "book":"",
+            "book":[],
             "tutorial":"",
             "paper":"",
             "ppt":""
@@ -62,7 +62,7 @@
     {
         "name":"PRINCIPAL OF ELECTRONICS LAB",
         "data":{
-            "book":"",
+            "book":[],
             "tutorial":"",
             "paper":"",
             "ppt":""
@@ -71,7 +71,7 @@
     {
         "name":"EMMI",
         "data":{
-            "book":"",
+            "book":[],
             "tutorial":"",
             "paper":"",
             "ppt":["https://drive.google.com/file/d/1lfvykhevHYRvwTR2LmaNxeKFHwFLHRjX/preview",
@@ -83,7 +83,7 @@
     {
         "name":"NMST MATH",
         "data":{
-            "book":"https://drive.google.com/file/d/17oGtWaVAYLvv81CP1NXyAm6gQGXpfnoZ/preview",
+            "book":["https://drive.google.com/file/d/17oGtWaVAYLvv81CP1NXyAm6gQGXpfnoZ/preview"],
             "tutorial":"",
             "paper":"",
             "ppt":""
