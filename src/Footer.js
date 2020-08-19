@@ -8,7 +8,9 @@ const Footer = () => {
             <div style = {{width:"500px",maxWidth:"100%",padding:30}}>
                     <p>We are very Happy tha tyou visit our website.This website is made on Laptop so if you find any difficult in using this at Phone.Please let's Know.</p>
                     <p className = "w3-text-aqua">Please Mention your Feedback in Help Section</p>
-                    <Link to = "/help" className = "btn btn-info">Feedback</Link>
+                    <Link to = "/help" className = "btn btn-info m-2">Feedback</Link>
+                    <Link to = "/CoFounder" className = "btn btn-info m-2">CoFounder</Link>
+                    <Link to = "/Theme" className = "btn btn-info m-2">Theme</Link>
                 </div>
                 <div style = {{width:"500px",maxWidth:"100%",margin:10}}>
                     <p>Contact Detail</p>

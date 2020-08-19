@@ -20,6 +20,19 @@ const Class = (props) => {
             )
         }
     }
+    const BookDisplay = () => {
+        if(a[0].data.Book == ""){
+            return <div>No Ppt availabel!!!</div>
+        }
+        else{
+            return a[0].data.book.map(b=>{
+               return <div key = {b}>
+                   <iframe src = {b} width="640" height="480" style = {{maxWidth:"100%"}}></iframe>
+               </div>
+           }
+            )
+        }
+    }
 return (
     <div className = "w3-center" style = {{display:"flex",flexDirection:"column",justifyContent:"center",maxWidth:"100%"}}>
         <h1>{props.match.params.name}</h1> 
@@ -28,7 +41,7 @@ return (
         <button onClick = {()=>document.getElementById("Book").style.display = "block"} className = "btn btn-info">Book</button>
         </div>
         <div id = "Book" style = {{display:"none"}}>
-        {a[0].data.book?<iframe src={a[0].data.book} width = "640" height = "480" style = {{maxWidth:"100%"}}></iframe>:'No Book'}
+        {BookDisplay()}
         </div>
         <h3>Tutorial</h3>
         <div>

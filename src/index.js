@@ -10,11 +10,18 @@ class Header extends Component {
             NameShow:true
         }
     }
-render(){return (
+render(){
+    if(this.state.NameShow){
+        return <Name onClickHandler = {()=>{this.setState({NameShow:false})}} />
+    }
+    else{
+    return (
     <BrowserRouter>
-        {this.state.NameShow?<Name onClickHandler = {()=>{this.setState({NameShow:false})}} />:<Home />}
+        <Home />
     </BrowserRouter>
-)}
+)
+}
+    }
 }
 
 ReactDOM.render(<Header />,document.getElementById('root'))
