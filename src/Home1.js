@@ -50,7 +50,7 @@ const Home1 = () => {
       <div className = "w3-modal" style = {{display:"block",maxWidth:"100%"}} id = "modal">
             <div className = "w3-modal-content">
                 <div className = "w3-container">
-                    <span className = "w3-btn w3-right" onClick = {()=>document.getElementById("modal").style.display = "none"}>X</span><br />
+                    <span className = "w3-btn w3-right w3-red w3-margin" onClick = {()=>document.getElementById("modal").style.display = "none"}>X</span><br />
                     <div>
                         <p>We made this For electrical student .</p>
                         <p>Please Provide Feedback in help section so we can we improve ourself.</p>
@@ -58,8 +58,7 @@ const Home1 = () => {
                         <img src = {Joke} alt = "Joke" style = {{maxWidth:"60%",display:"none"}} id = "IMG" /><br />
                         <p className = "w3-text-red">After Seeing this website please don't feel like</p>
                         <div style = {{display:"flex",justifyContent:"space-between"}}>
-                        <button  className = "w3-btn w3-green w3-margin" onClick = {()=>document.getElementById("IMG").style.display = "block"}>SEE</button>
-                        <button className = "w3-btn w3-green w3-margin" onClick = {()=>document.getElementById("modal").style.display = "none"}>Got It!!!</button>
+                        <button  className = "w3-btn w3-red w3-margin" onClick = {()=>document.getElementById("IMG").style.display = "block"}>SEE</button>
                         </div>
                     </div>
                 </div>
