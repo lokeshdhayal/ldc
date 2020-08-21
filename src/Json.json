@@ -2,98 +2,144 @@
     {
         "name":"Electric Engineering Material & Devises",
         "data":{
-            "book":["https://drive.google.com/file/d/1HGjSwTfiKZjMcwjyHqoVfSS_m0gxXOCu/preview",
-                "https://drive.google.com/file/d/1dMlnUtfB2i8JXPI0UUZeeKp_ox6P6x3E/preview"],
-            "tutorial":"",
+            "book":[{
+                "name":"Book 1",
+                "url":"https://drive.google.com/file/d/1HGjSwTfiKZjMcwjyHqoVfSS_m0gxXOCu/preview"},
+                {
+                    "name":"Book 2",
+                "url":"https://drive.google.com/file/d/1dMlnUtfB2i8JXPI0UUZeeKp_ox6P6x3E/preview"}
+            ],
+            "tutorial":[{
+                "name":"Tutorial 1",
+                "url":"https://drive.google.com/file/d/1dMlnUtfB2i8JXPI0UUZeeKp_ox6P6x3E/preview"
+            }],
             "paper":"",
-            "ppt":["https://drive.google.com/file/d/1PrT6qljSoQZPHO5fHAuGy_ler7fYAu9a/preview",
-                "https://drive.google.com/file/d/17KvtIdVtSAKBsW85RF_gFsl-UucdMeg-/preview",
-                "https://drive.google.com/file/d/16OYKLfgc1TpRzmjmQr3W-I2AEVz9pC8n/preview",
-                "https://drive.google.com/file/d/1_j-Ru_ZjBhmE15JX-XHVHbaenPLs2pN0/preview"]
+            "ppt":[
+                {"name":"ppt1",
+                    "url":"https://drive.google.com/file/d/1PrT6qljSoQZPHO5fHAuGy_ler7fYAu9a/preview"},
+                {"name":"ppt",
+                    "url":"https://drive.google.com/file/d/17KvtIdVtSAKBsW85RF_gFsl-UucdMeg-/preview"},
+                {"name":"ppt",
+                    "url":"https://drive.google.com/file/d/16OYKLfgc1TpRzmjmQr3W-I2AEVz9pC8n/preview"},
+                {"name":"ppt",
+                    "url":"https://drive.google.com/file/d/1_j-Ru_ZjBhmE15JX-XHVHbaenPLs2pN0/preview"}]
         }
     },
     {
         "name":"NMST MATH",
         "data":{
             "book":[],
-            "tutorial":"",
+            "tutorial":[{
+                "name":"TUtorial Old",
+                "url":"https://drive.google.com/file/d/1AeBlvcwoLAtNFfUdPJLQ0Y-xhI0QsexW/preview"
+            }],
             "paper":"",
-            "ppt":""
+            "ppt":[]
         }
     },
     {
         "name":"BEE BASIC EE",
         "data":{
             "book":[],
-            "tutorial":"",
+            "tutorial":[],
             "paper":"",
-            "ppt":["https://drive.google.com/file/d/1wKbDWUf7l-gs1YLJjtcgSdFBNz7hVvUH/preview"]
+            "ppt":[{
+                "name":"ppt 1",
+                "url":"https://drive.google.com/file/d/1wKbDWUf7l-gs1YLJjtcgSdFBNz7hVvUH/preview"}]
         }
     },
     {
         "name":"PRINCIPAL OF ELECTRONICS",
         "data":{
             "book":[],
-            "tutorial":"",
+            "tutorial":[],
             "paper":"",
-            "ppt":""
+            "ppt":[{
+                "name":"Ppt 1",
+                "url":"https://drive.google.com/file/d/1AS-UFBgWy498w_bxmTRRa-pf89vI7H6O/preview"
+            }]
         }
     },
     {
         "name":"DATA STRUCTURE AND OS",
         "data":{
-            "book":["https://drive.google.com/file/d/1Y_xsRBV6595y2taorYBP3PRMSuA3FQcH/preview",
-                "https://drive.google.com/file/d/1_2WkJiE3x08N8jQWR9v3rRed3Ir-sIpA/preview",
-                "https://drive.google.com/file/d/17oGtWaVAYLvv81CP1NXyAm6gQGXpfnoZ/preview"],
+            "book":[{
+                "name":"book",
+                "url":"https://drive.google.com/file/d/1Y_xsRBV6595y2taorYBP3PRMSuA3FQcH/preview"},
+                {
+                    "name":"book",
+                    "url":"https://drive.google.com/file/d/1_2WkJiE3x08N8jQWR9v3rRed3Ir-sIpA/preview"},
+                {
+                    "name":"book",
+                    "url":"https://drive.google.com/file/d/17oGtWaVAYLvv81CP1NXyAm6gQGXpfnoZ/preview"}],
             "tutorial":"",
             "paper":"",
-            "ppt":["https://drive.google.com/file/d/147JXZndg8mSf16JkArQQYPUZqR5ZxP5W/preview"]
+            "ppt":[
+                {"name":"ppt",
+                    "url":"https://drive.google.com/file/d/147JXZndg8mSf16JkArQQYPUZqR5ZxP5W/preview"},
+                {
+                    "name":"Linked List",
+                    "url":"https://drive.google.com/file/d/1APYl0a_yD_c-fVa-yR9lK1RH-0JCMV4E/preview"
+                }]
         }
     },
     {
         "name":"CS LAB",
         "data":{
             "book":[],
-            "tutorial":"",
+            "tutorial":[],
             "paper":"",
-            "ppt":""
+            "ppt":[]
         }
     },
     {
         "name":"PRINCIPAL OF ELECTRONICS LAB",
         "data":{
             "book":[],
-            "tutorial":"",
+            "tutorial":[],
             "paper":"",
-            "ppt":""
+            "ppt":[]
         }
     },
     {
         "name":"EMMI",
         "data":{
             "book":[],
-            "tutorial":"",
+            "tutorial":[{
+                "name":"assignment 1",
+                "url":"https://drive.google.com/file/d/1AUF6Nw2ijZ-Pb_TPN9Jjmc0GXEDOgd6D/preview"
+            }],
             "paper":"",
-            "ppt":["https://drive.google.com/file/d/1lfvykhevHYRvwTR2LmaNxeKFHwFLHRjX/preview",
-                "https://drive.google.com/file/d/1jSJpCnalz3z0QW1NbMBaW-QphgejJqZt/preview",
-                "https://drive.google.com/file/d/1Gt0cmf-Nk8o80yB1RAiSQ8w8brZzYVHj/preview",
-                "https://drive.google.com/file/d/1U-xM_hmjGP85Qg6w9roSug8-HrjV5kpa/preview"]
+            "ppt":[{
+                "name":"ppt",
+                "url":"https://drive.google.com/file/d/1lfvykhevHYRvwTR2LmaNxeKFHwFLHRjX/preview"},
+                {
+                    "name":"ppt",
+                    "url":"https://drive.google.com/file/d/1jSJpCnalz3z0QW1NbMBaW-QphgejJqZt/preview"},
+                {
+                    "name":"ppt",
+                    "url":"https://drive.google.com/file/d/1Gt0cmf-Nk8o80yB1RAiSQ8w8brZzYVHj/preview"},
+                {
+                    "name":"ppt",
+                    "url":"https://drive.google.com/file/d/1U-xM_hmjGP85Qg6w9roSug8-HrjV5kpa/preview"}]
         }
     },
     {
         "name":"NMST MATH",
         "data":{
-            "book":["https://drive.google.com/file/d/17oGtWaVAYLvv81CP1NXyAm6gQGXpfnoZ/preview"],
-            "tutorial":"",
+            "book":[
+                {"name":"Book",
+                    "url":"https://drive.google.com/file/d/17oGtWaVAYLvv81CP1NXyAm6gQGXpfnoZ/preview"}],
+            "tutorial":[],
             "paper":"",
-            "ppt":""
+            "ppt":[]
         }
     },
     {
         "name":"NMST MATH",
         "data":{
             "book":"",
-            "tutorial":"",
+            "tutorial":[],
             "paper":"",
             "ppt":""
         }

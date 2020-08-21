@@ -13,8 +13,9 @@ const Class = (props) => {
         }
         else{
             return a[0].data.ppt.map(b=>{
-               return <div key = {b}>
-                   <iframe src = {b} width="640" height="480" style = {{maxWidth:"100%"}}></iframe>
+               return <div key = {b.name}>
+                   <h1>{b.name}</h1>
+                   <iframe src = {b.url} width="640" height="480" style = {{maxWidth:"100%"}}></iframe>
                </div>
            }
             )
@@ -27,7 +28,22 @@ const Class = (props) => {
         else{
             return a[0].data.book.map(b=>{
                return <div key = {b}>
-                   <iframe src = {b} width="640" height="480" style = {{maxWidth:"100%"}}></iframe>
+                   <h1>{b.name}</h1>
+                   <iframe src = {b.url} width="640" height="480" style = {{maxWidth:"100%"}}></iframe>
+               </div>
+           }
+            )
+        }
+    }
+    const TutorialDisplay = () => {
+        if(a[0].data.tutorial == []){
+            return <div>No Ppt availabel!!!</div>
+        }
+        else{
+            return a[0].data.tutorial.map(b=>{
+               return <div key = {b}>
+                   <h1>{b.name}</h1>
+                   <iframe src = {b.url} width="640" height="480" style = {{maxWidth:"100%"}}></iframe>
                </div>
            }
             )
@@ -48,7 +64,7 @@ return (
         <button onClick = {()=>document.getElementById("Tutorial").style.display = "block"} className = "btn btn-info">Book</button>
         </div>
         <div id = "Tutorial" style = {{display:"none"}}>
-        {a[0].data.tutorial?<iframe src = {a[0].data.tutorial} width="640" height="480"></iframe>:"No tutorial"}
+        {TutorialDisplay()}
         </div>
         <h3>Paper</h3>
         <div>
