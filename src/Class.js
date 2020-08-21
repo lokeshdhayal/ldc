@@ -64,10 +64,6 @@ return (
         <div id = "Ppt" style = {{display:"none"}}>
             {PptDisplay()}
         </div>
-        <div>
-        <iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/56609de9-c45b-4afa-b343-dbbeb9cacbae?autoplay=false&amp;showinfo=true" allowfullscreen style={{border:"none",maxWidth:"100%"}}></iframe>
-    
-        </div>
         </div>
 )   
 }
