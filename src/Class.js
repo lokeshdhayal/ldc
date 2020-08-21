@@ -21,7 +21,7 @@ const Class = (props) => {
         }
     }
     const BookDisplay = () => {
-        if(a[0].data.Book == ""){
+        if(a[0].data.book == []){
             return <div>No Ppt availabel!!!</div>
         }
         else{
@@ -64,7 +64,11 @@ return (
         <div id = "Ppt" style = {{display:"none"}}>
             {PptDisplay()}
         </div>
-    </div>
+        <div>
+        <iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/56609de9-c45b-4afa-b343-dbbeb9cacbae?autoplay=false&amp;showinfo=true" allowfullscreen style={{border:"none",maxWidth:"100%"}}></iframe>
+    
+        </div>
+        </div>
 )   
 }
 export default Class
