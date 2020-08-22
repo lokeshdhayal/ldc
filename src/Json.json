@@ -22,7 +22,9 @@
                 {"name":"ppt",
                     "url":"https://drive.google.com/file/d/16OYKLfgc1TpRzmjmQr3W-I2AEVz9pC8n/preview"},
                 {"name":"ppt",
-                    "url":"https://drive.google.com/file/d/1_j-Ru_ZjBhmE15JX-XHVHbaenPLs2pN0/preview"}]
+                    "url":"https://drive.google.com/file/d/1_j-Ru_ZjBhmE15JX-XHVHbaenPLs2pN0/preview"},
+                {"name":"PPt 8",
+                    "url":"https://drive.google.com/file/d/1BdKKy-QT6z0s5o9hCCBq68EyA0kdIOPN/preview"}]
         }
     },
     {
@@ -87,7 +89,10 @@
         "name":"CS LAB",
         "data":{
             "book":[],
-            "tutorial":[],
+            "tutorial":[{
+                "name":"assignment 2",
+                "url":"https://drive.google.com/file/d/1B9Vz0q7f48hyVEVrDZO-vKU6k2dpt61v/preview"
+            }],
             "paper":"",
             "ppt":[]
         }
@@ -121,7 +126,21 @@
                     "url":"https://drive.google.com/file/d/1Gt0cmf-Nk8o80yB1RAiSQ8w8brZzYVHj/preview"},
                 {
                     "name":"ppt",
-                    "url":"https://drive.google.com/file/d/1U-xM_hmjGP85Qg6w9roSug8-HrjV5kpa/preview"}]
+                    "url":"https://drive.google.com/file/d/1U-xM_hmjGP85Qg6w9roSug8-HrjV5kpa/preview"},
+                {
+                    "name":"Ppt",
+                    "url":"https://drive.google.com/file/d/1AkKhTSJxdQsedU29BgcwN_NNjoWksWdG/preview"
+                },
+            {
+                "name":"Ppt",
+                "url":"https://drive.google.com/file/d/1B2mHDNCV9e_QmKXwIIIj9nJFwB2tIdTw/preview" 
+            },{
+                "name":"Ppt",
+                "url":"https://drive.google.com/file/d/1B52ngvs8BXwQ1if32GMG6UMtZUFeukYz/preview"
+        },{
+            "name":"ppt",
+            "url":"https://drive.google.com/file/d/1Au8PF44-aBqM26z9UlHDloSfyoqvJ_Hp/preview"
+        }]
         }
     },
     {
