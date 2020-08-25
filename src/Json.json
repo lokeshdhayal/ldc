@@ -30,7 +30,8 @@
     {
         "name":"NMST MATH",
         "data":{
-            "book":[],
+            "book":[{"name":"Book",
+                "url":"https://drive.google.com/file/d/17oGtWaVAYLvv81CP1NXyAm6gQGXpfnoZ/preview"}],
             "tutorial":[{
                 "name":"TUtorial Old",
                 "url":"https://drive.google.com/file/d/1AeBlvcwoLAtNFfUdPJLQ0Y-xhI0QsexW/preview"

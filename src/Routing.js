@@ -13,6 +13,8 @@ import Home1 from './Home1'
 import * as firebase from 'firebase'
 import Class from './Class'
 import Footer from './Footer'
+import Join from './components/Join'
+import Chat from './components/Chat'
 class Routing extends Component{
     constructor(){
         super()
@@ -33,6 +35,8 @@ class Routing extends Component{
                 <Route exact path="/input" component={InputHandler} />
                 <Route exact path="/theme" render={()=><ButtonColor colorss = {(a)=>this.setState({colors:a})} />} />
                 <Route exact path="/cofounder" component = {CoFounder} />
+                <Route path = "/join" component = {Join} /> 
+                <Route path = "/chat" component = {Chat} />
                 <Route component={Get404} />
                 </Switch>
             </div>
