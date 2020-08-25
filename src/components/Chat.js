@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import queryString from 'query-string'
 import io from 'socket.io-client'
+import ScrollToBottom from 'react-scroll-to-bottom';
+import { css } from 'glamor';
+import Message from './msg.js'
 var socket
+const csss = css({height:500})
 const Chat  = ({location}) => {
     const ENDPOINT = "http://localhost:2000"
     const [message,setMessage] = useState("")
@@ -23,14 +27,25 @@ const Chat  = ({location}) => {
     })
     const sendMessageClick = (e) => {
         socket.emit("sendMessage",{message})
-        setMessages([...messages,{text:message}])
+        setMessages([...messages,{text:message,user:"me"}])
         setMessage("")
     }
     return (
         <div>
-            {messages.map(a=>(<p key = {Math.random()}>{a.text}</p>))}
-            <input type = "text" onChange = {(e)=>setMessage(e.target.value)} value = {message} />
-            <button onClick = {()=>sendMessageClick()}>Send</button>
+            <div style = {{maxwidth:"100%",height:"100px"}} style = {{margin:10}}>
+            <ScrollToBottom className = {csss} style = {{adding: "5% 0",overflow: "auto",flex: "auto",display:"flex"}}>
+            {messages.map((a,i)=>(
+            <div key = {i}>
+                <Message msg = {a} />
+            </div>))}
+                </ScrollToBottom>
+                </div>
+            <div className = "fixed-bottom container">
+                <div style = {{display:"flex",alignItems:"space-between",justifyContent:"space-between",padding:10}}>
+            <input type = "text" onChange = {(e)=>setMessage(e.target.value)} className ="form-control m-2 " value = {message} placeholder = "Enter the message here..." />
+            <button onClick = {()=>sendMessageClick()} className = "m-2 w3-green"  style = {{borderRadius:"100%"}}><i className = "fa fa-send"></i></button>
+            </div>
+            </div>
         </div>
     )
 }
