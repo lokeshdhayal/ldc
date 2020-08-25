@@ -5,7 +5,7 @@ import ScrollToBottom from 'react-scroll-to-bottom';
 import { css } from 'glamor';
 import Message from './msg.js'
 var socket
-const csss = css({height:500})
+const csss = css({height:400})
 const Chat  = ({location}) => {
     const ENDPOINT = "http://localhost:2000"
     const [message,setMessage] = useState("")
