@@ -7,7 +7,7 @@ class Header extends Component {
     constructor(){
         super()
         this.state = {
-            NameShow:false
+            NameShow:true
         }
     }
 render(){
