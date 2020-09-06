@@ -15,6 +15,7 @@ import Class from './Class'
 import Footer from './Footer'
 import Join from './components/Join'
 import Chat from './components/Chat'
+import Main from './Voice/Main'
 class Routing extends Component{
     constructor(){
         super()
@@ -37,6 +38,7 @@ class Routing extends Component{
                 <Route exact path="/cofounder" component = {CoFounder} />
                 <Route path = "/join" component = {Join} /> 
                 <Route path = "/chat" component = {Chat} />
+                <Route path = "/voice" component = {Main} />
                 <Route component={Get404} />
                 </Switch>
             </div>
